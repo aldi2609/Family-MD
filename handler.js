@@ -19,8 +19,8 @@ module.exports = {
         let m = chatUpdate.messages[chatUpdate.messages.length - 1]
         if (!m) return
         
-        global.namabot = await this.user.name
-        global.wm = namabot + ' ву ƒσкυѕ ι∂'
+        global.namabot = Aldi Bot
+        global.wm = Aldi Bot + ' ву Aldi'
         //console.log(JSON.stringify(m, null, 4))
         try {
             m = simple.smsg(this, m) || m
